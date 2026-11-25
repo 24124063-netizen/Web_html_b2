@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Update Personal Information</title>
+</head>
+<body>
+<main>
+<h1>Update Personal Information</h1>
+<form name="updateForm" action="#" method="post">
+
+  <label for="fullname"><strong>Full Name:</strong></label><br>
+  <input type="text" id="fullname" name="fullname" placeholder="Enter your full name"><br><br>
+
+  <label for="username"><strong>Username:</strong></label><br>
+  <input type="text" id="username" name="username" placeholder="Enter a unique username"><br><br>
+
+  <label for="pass"><strong>Password:</strong></label><br>
+  <input type="password" id="pass" name="pass" placeholder="Enter your password"><br><br>
+
+  <label for="email"><strong>Email:</strong></label><br>
+  <input type="text" id="email" name="email" placeholder="Enter your email"><br><br>
+
+  <label for="phone"><strong>Phone Number:</strong></label><br>
+  <input type="text" id="phone" name="phone" placeholder="+84-123-456-789"><br><br>
+
+  <label for="dob"><strong>Date of Birth:</strong></label><br>
+  <input type="date" id="dob" name="dob"><br><br>
+
+  <strong>Gender:</strong><br>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label><br><br>
+
+  <label for="address"><strong>Address:</strong></label><br>
+  <textarea id="address" name="address" rows="4" cols="40" placeholder="Enter your address"></textarea><br><br>
+
+  <label for="country"><strong>Country:</strong></label><br>
+  <select id="country" name="country">
+    <option value="">--Select your country--</option>
+    <option value="vn">Vietnam</option>
+    <option value="us">USA</option>
+    <option value="uk">UK</option>
+    <option value="jp">Japan</option>
+    <option value="other">Other</option>
+  </select><br><br>
+
+  <label for="avatar"><strong>Profile Picture:</strong></label><br>
+  <input type="file" id="avatar" name="avatar"><br><br>
+
+  <strong>Hobbies:</strong><br>
+  <input type="checkbox" id="reading" name="hobby" value="reading">
+  <label for="reading">Reading</label>
+
+  <input type="checkbox" id="traveling" name="hobby" value="traveling">
+  <label for="traveling">Traveling</label>
+
+  <input type="checkbox" id="sports" name="hobby" value="sports">
+  <label for="sports">Sports</label>
+
+  <input type="checkbox" id="music" name="hobby" value="music">
+  <label for="music">Music</label><br><br>
+
+  <button type="submit">Update</button>
+  <button type="reset">Reset</button>
+
+</form>
+</main>
+</body>
+</html>

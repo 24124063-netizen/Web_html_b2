@@ -1,0 +1,57 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 25px;
+    background: #f1f5f9;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 25px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px #00000012;
+    overflow-x: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #1e4775;
+    margin-bottom: 25px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #aaa;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #286090;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background: #edf3f8;
+}
+
+.pass {
+    color: #16803c;
+    font-weight: bold;
+}
+
+.fail {
+    color: #d62828;
+    font-weight: bold;
+}

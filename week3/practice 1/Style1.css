@@ -1,0 +1,25 @@
+/* ID Selector */
+#mybody {
+    background-color: lightblue;
+}
+
+/* Grouping Selector */
+h1, h2, h3 {
+    color: blue;
+    font-family: Arial;
+}
+
+/* Element Selector */
+p {
+    color: red;
+}
+
+b {
+    color: purple;
+}
+
+/* Class Selector */
+.highlight {
+    background-color: yellow;
+    color: green;
+}
