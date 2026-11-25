@@ -1,0 +1,121 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px 16px;
+    background: linear-gradient(135deg, #e2f5e9, #e4efff);
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding: 30px;
+    border: 5px solid transparent;
+    border-radius: 14px;
+    background:
+        linear-gradient(white, white) padding-box,
+        linear-gradient(135deg, #39875b, #3b82c4, #8e5bc7) border-box;
+    box-shadow: 0 8px 25px #00000018;
+}
+
+h1 {
+    color: #285b42;
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+fieldset {
+    margin-bottom: 22px;
+    padding: 20px;
+    border: 1px solid #b9d8c5;
+    border-radius: 9px;
+}
+
+legend {
+    padding: 0 10px;
+    color: #285b42;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-group > label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #39875b;
+    box-shadow: 0 0 4px #39875b55;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.radio-group,
+.animal-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.radio-group label,
+.animal-grid label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: normal;
+}
+
+.radio-group input,
+.animal-grid input {
+    width: auto;
+}
+
+.error {
+    display: block;
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background: #39875b;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #276641;
+}

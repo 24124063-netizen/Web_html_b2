@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Position and Image Marker</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 30px;
+            background-color: #f5f5ff;
+        }
+
+        h1 {
+            color: #51458c;
+        }
+
+        .inside-list {
+            list-style-position: inside;
+            background-color: #e6e1ff;
+            padding: 20px;
+            width: 350px;
+        }
+
+        .outside-list {
+            list-style-position: outside;
+            background-color: #dff1ff;
+            padding: 20px 40px;
+            width: 350px;
+        }
+
+        .image-list {
+            list-style-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%2351458c' d='M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z'/%3E%3C/svg%3E");
+            padding-left: 40px;
+        }
+
+        li {
+            margin-bottom: 12px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <h1>List Position and Image Marker</h1>
+
+    <h2>List Position: Inside</h2>
+    <ul class="inside-list">
+        <li>HTML is used to structure web pages.</li>
+        <li>CSS is used to style web pages.</li>
+        <li>JavaScript adds interactivity.</li>
+    </ul>
+
+    <h2>List Position: Outside</h2>
+    <ul class="outside-list">
+        <li>HTML is used to structure web pages.</li>
+        <li>CSS is used to style web pages.</li>
+        <li>JavaScript adds interactivity.</li>
+    </ul>
+
+    <h2>List with Image Marker (Optional)</h2>
+    <ul class="image-list">
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ul>
+</body>
+</html>

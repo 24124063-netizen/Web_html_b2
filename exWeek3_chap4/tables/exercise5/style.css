@@ -1,0 +1,74 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 25px;
+    background: #f2f6fc;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 25px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px #00000012;
+    overflow-x: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #244b73;
+    margin-bottom: 25px;
+}
+
+.schedule {
+    width: 100%;
+    min-width: 950px;
+    border-collapse: collapse;
+}
+
+.schedule th,
+.schedule td {
+    border: 1px solid #b8c7d8;
+    padding: 10px;
+    text-align: center;
+}
+
+.schedule thead th {
+    background: #315f8c;
+    color: white;
+}
+
+.schedule tbody > tr:nth-child(even) {
+    background: #eef4fa;
+}
+
+.schedule tbody > tr:nth-child(odd) {
+    background: #ffffff;
+}
+
+.subject {
+    width: 100%;
+    border-collapse: collapse;
+    background: #e4f0ff;
+    font-size: 12px;
+}
+
+.subject td {
+    border: none;
+    padding: 4px;
+}
+
+.subject tr:first-child {
+    font-weight: bold;
+    color: #174c7a;
+}
+
+.pe {
+    background: #e0f5e8;
+}

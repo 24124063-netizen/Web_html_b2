@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course Feedback Form</title>
+</head>
+<body>
+
+    <h1>Course Feedback Form</h1>
+
+    <form name="feedbackForm" method="POST" action="#">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"
+               placeholder="Enter your name">
+        <br><br>
+
+        <label for="country">Country:</label>
+
+        <select id="country" name="country">
+            <option value="Vietnam">Vietnam</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="Japan">Japan</option>
+        </select>
+
+        <br><br>
+
+        <label for="comment">Comment:</label>
+        <br>
+
+        <textarea id="comment" name="comment"
+                  rows="4" cols="40"></textarea>
+
+        <br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+</body>
+</html>
